@@ -1,0 +1,11 @@
+{
+  "name": "@andrew-wang0/webview",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "latest"
+  }
+}
