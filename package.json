@@ -1,6 +1,6 @@
 {
   "name": "@andrew-wang0/webview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A minimal Electron/Chromium wrapper that opens a URL in a desktop window",
   "main": "main.js",
   "bin": {
@@ -16,6 +16,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron": "^35.0.0"
+    "electron": "^42.0.0"
   }
 }
