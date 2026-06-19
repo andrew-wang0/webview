@@ -2,22 +2,29 @@
 
 A minimal Electron/Chromium wrapper that opens a URL in a desktop window.
 
-## Install
-
-```sh
-npm install
-```
-
-## Run
+## Run with npx
 
 Open the default URL, `http://localhost:3000`:
 
 ```sh
-npm start
+npx @andrew-wang0/webview
 ```
 
 Override the URL:
 
 ```sh
-npm start -- http://localhost:3000
+npx @andrew-wang0/webview http://localhost:8080
+```
+
+## Local development
+
+```sh
+npm install
+npm start
+```
+
+Override the URL locally:
+
+```sh
+npm start -- http://localhost:8080
 ```
