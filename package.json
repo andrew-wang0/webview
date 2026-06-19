@@ -5,6 +5,7 @@
   "scripts": {
     "start": "electron ."
   },
+  "license": "MIT",
   "devDependencies": {
     "electron": "latest"
   }
